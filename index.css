@@ -1,8 +1,5 @@
-.nave{
-    background: rgb(87,87,68);
-    background: linear-gradient(54deg, rgba(87,87,68,0.9668242296918768) 2%, rgba(227,226,215,0.5102415966386555) 56%, rgba(228,241,17,0.9780287114845938) 100%);
-}
-    .nave img{
+
+.nave img{
     width: 30%;
     height: 30%;
 }
@@ -21,6 +18,49 @@
 }
 
 
+.accordion-item{
+background-color: black;
+color: yellow;
+}
+        
+
+ .accordion-button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: yellow;
+ }
+
+.accordion-body{
+ background-color: grey;
+ color:yellow
+ 
+}
+
+
+
+.float{
+	position:fixed;
+	width:70px;
+	height:70px;
+	bottom:50px;
+	right:50px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
 
 
 
@@ -28,8 +68,9 @@
 
 
 
+    
 
-
+    
 
 
 
@@ -48,8 +89,8 @@
 
 
 .caja{
-    background: rgb(3,13,13);
-    background: linear-gradient(95deg, rgba(3,13,13,0.9668242296918768) 5%, rgba(227,226,215,0.5102415966386555) 90%, rgba(237,249,44,0.6502976190476191) 95%);
+    background: rgb(87,87,68);
+    background: linear-gradient(54deg, rgba(87,87,68,0.9668242296918768) 22%, rgba(227,226,215,0.5102415966386555) 49%, rgba(241,186,17,0.9780287114845938) 63%);
 
 }
 
@@ -69,8 +110,11 @@ col{
 .col a{
     margin-top: 5px;
     color:white;
+    text-decoration: none;
 }
-
+.titfooter{
+    color: white;
+}
 .col h2{
     font-size: large;
 }
