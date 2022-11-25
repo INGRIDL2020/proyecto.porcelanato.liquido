@@ -1,0 +1,42 @@
+.Contacto{
+    text-align: center;
+    margin: 5%;
+    background-color: rgba(249, 251, 251, 0.977);
+}
+
+.co{
+    margin: 1%;
+    height: 110px;
+    
+}
+
+
+
+.card-body-1{
+    background-color: rgba(255, 255, 165, 0.934);
+}
+
+.card{
+    margin-top: 3%;
+}
+
+body{
+    background-color: rgb(244, 244, 96);
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+.card-img-top{
+    border-radius:100%;
+    width: 65%;
+    margin-left: 15%;
+}
+
+
+
+.img5{
+    margin-left: 10%;
+}
+
+h4{
+    text-align: center;
+}
