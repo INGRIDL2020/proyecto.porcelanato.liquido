@@ -1,6 +1,6 @@
 .Contacto{
     text-align: center;
-    margin: 5%;
+    width: 101%;
     background-color: rgba(249, 251, 251, 0.977);
 }
 
@@ -10,33 +10,38 @@
     
 }
 
-
-
-.card-body-1{
-    background-color: rgba(255, 255, 165, 0.934);
-}
-
-.card{
-    margin-top: 3%;
-}
-
-body{
-    background-color: rgb(244, 244, 96);
-    font-family: 'Times New Roman', Times, serif;
-} 
-
-.card-img-top{
-    border-radius:100%;
-    width: 65%;
-    margin-left: 15%;
+.body{
+    margin: auto;
+   
 }
 
 
-
-.img5{
-    margin-left: 10%;
+  
+.buttons {
+    min-width: 100px;
+    display: flex;
+    position: absolute;top: 350px; left: 75px; ;;;
+    margin: 1%;
+    
 }
-
-h4{
+  
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
     text-align: center;
+    background: #000000;
+    color: #f1e044;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    transition: all .4s ease-in-out;
 }
+  
+  .buttons a:hover {
+    transform: scale(1.3);
+  }
+ 
+
+

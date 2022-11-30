@@ -24,11 +24,11 @@ color: yellow;
 }
         
 
- .accordion-button{
+.accordion-button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
     color: yellow;
- }
+}
 
 .accordion-body{
  background-color: grey;
