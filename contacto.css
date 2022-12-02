@@ -3,16 +3,6 @@
 
 }
 
-/* .buttons {
-    min-width: 100px;
-    position: absolute; 
-    top: 350px; 
-    left: 75px;
-    margin: 1%; 
-    
-    
-} */
-
 .card {
 
     height: 430px !important;
@@ -64,7 +54,7 @@
 
     .buttons {
         position: absolute;
-        top: 65%;
+        top: 80%;
 
     }
 

@@ -31,9 +31,8 @@ color: yellow;
  }
 
 .accordion-body{
- background-color: grey;
- color:yellow
- 
+    background-color: grey;
+    color:yellow
 }
 
 
@@ -48,59 +47,30 @@ color: yellow;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-  font-size:30px;
+    font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+    z-index:100;
 }
 .float:hover {
 	text-decoration: none;
 	color: #25d366;
-  background-color:#fff;
+    background-color:#fff;
 }
 
 .my-float{
-	margin-top:16px;
+	margin-top:20px;
 }
-
-
-
-
-
-
-
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .caja{
     background: rgb(87,87,68);
     background: linear-gradient(54deg, rgba(87,87,68,0.9668242296918768) 22%, rgba(227,226,215,0.5102415966386555) 49%, rgba(241,186,17,0.9780287114845938) 63%);
 
 }
-
 .imgfoot{
     width: 35%;
-    height:35%;
-    
+    height:35%;    
     box-shadow:12px 12px 10px rgb(189, 176, 176) ;
 }
-
 
 col{
     align-items: center;
@@ -146,11 +116,18 @@ col h6{
     background-color:rgb(8, 7, 8);
 }
 
-
-
-/* pagina nosotros */
 .parrafo{
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200;
+}
+@media (max-width: 800px) {
+    footer .row{
+        display: flex;
+        flex-direction: column;        
+    }
+    .col{
+        margin-left: 20px;
+        padding-top: 10px;
+    }
 }
